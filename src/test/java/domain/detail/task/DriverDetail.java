@@ -3,10 +3,10 @@ package domain.detail.task;
 public class DriverDetail {
 	private String driverCode;
 	private String driverFullName;
-	private Integer driverMobileNo;
-	private Integer driverIdNo;
+	private int driverMobileNo;
+	private int driverIdNo;
 	
-	public DriverDetail(String driverCode, String driverFullName, Integer driverMobileNo, Integer driverIdNo){
+	public DriverDetail(String driverCode, String driverFullName, int driverMobileNo, int driverIdNo){
 		this.driverCode = driverCode;
 		this.driverFullName = driverFullName;
 		this.driverMobileNo = driverMobileNo;
@@ -21,11 +21,11 @@ public class DriverDetail {
 		return driverFullName;
 	}
 	
-	public Integer getDriverMobileNo() {
+	public int getDriverMobileNo() {
 		return driverMobileNo;
 	}
 	
-	public Integer getDriverIdNo() {
+	public int getDriverIdNo() {
 		return driverIdNo;
 	}
 	

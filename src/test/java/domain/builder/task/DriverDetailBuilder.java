@@ -5,8 +5,8 @@ import domain.detail.task.DriverDetail;
 public class DriverDetailBuilder {
 	private String driverCode;
 	private String driverFullName;
-	private Integer driverMobileNo;
-	private Integer driverIdNo;
+	private int driverMobileNo;
+	private int driverIdNo;
 	
 	public DriverDetailBuilder withDriverCode(String driverCode){
 		this.driverCode = driverCode;
@@ -18,12 +18,12 @@ public class DriverDetailBuilder {
 		return this;
 	}
 	
-	public DriverDetailBuilder withDriverMobileNo(Integer driverMobileNo){
+	public DriverDetailBuilder withDriverMobileNo(int driverMobileNo){
 		this.driverMobileNo = driverMobileNo;
 		return this;
 	}
 	
-	public DriverDetailBuilder withDriverIdNo(Integer driverIdNo){
+	public DriverDetailBuilder withDriverIdNo(int driverIdNo){
 		this.driverIdNo = driverIdNo;
 		return this;
 	}
