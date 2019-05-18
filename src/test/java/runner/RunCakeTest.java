@@ -9,6 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/resources/features/TestFunctionality.feature",
 glue = {"step_definitions"},
 tags = {"~@wip", "~@done"},
+//tags = {"~@wip"},
 format = {
 		"pretty", "html:target/cucumber", "json:target/cucumber-report.json" })
 public class RunCakeTest {
