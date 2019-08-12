@@ -27,8 +27,6 @@ public class CreateDriver_Steps {
 		this.data = new DriverData();
 	}
 	
-	
-	
 	@Given("^I open driver page \"(.*)\"$")
 	public void i_open_driver_screen(String driver_link){
 		driver.get(driver_link);
